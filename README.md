@@ -32,7 +32,7 @@ Rscript --vanilla scrape.R -p "RB" -s "2000" -e "2002" -d "/foo/bar/"
 * -e: The last year from which you would like to collect data. Should be a string. Earliest year is "2000". Latest year is "2018"
 * -d: the directory in which to save the data file scraped. Should be a string. "/foo/bar" will break. "/foo/bar/" will not.
 
-4. The data will be stored in 2000-2002RBcleanData.rda. 
+4. The data will be stored in 2000-2002RBcleanData.rda inside the /foo/bar directory 
 5. Load in R using the readRDS function, and happy analyzing!
 
 ### Ideas for the improvement of this script

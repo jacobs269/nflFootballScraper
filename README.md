@@ -1,6 +1,6 @@
 # Scraping NFL Player Data Using R
 
-In this project, I use R to scrape data on the professional and college careers of NFL running backs and wide recievers. The professional data comes from [here](https://www.pro-football-reference.com/) and the college data comes from [here](https://www.sports-reference.com/cfb/). In addition to grabbing statistics from a player's college and nfl career, the scraper also grabs NFL combine statistics, NFL rookie statistics, and some NFL fantasy information. To learn more about what data is included in the data files that can be scraped using the code, see DataVariables.md
+In this project, I use R to scrape data on the professional and college careers of NFL running backs and wide recievers. The data comes from the sports-reference suite of websites. The professional data comes from [here](https://www.pro-football-reference.com/) and the college data comes from [here](https://www.sports-reference.com/cfb/). In addition to grabbing statistics from a player's college and nfl career, the scraper also grabs NFL combine statistics, NFL rookie statistics, and some NFL fantasy information. This information is collected into one table. To learn more about what data is included in the data files that can be scraped using the code, see DataVariables.md
 
 What follows below are instructions for using this scraper
 
